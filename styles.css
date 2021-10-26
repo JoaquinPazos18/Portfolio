@@ -48,10 +48,10 @@ h2 {
 }
 
 .proyectos {
-    display: flex;    padding: 10px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    display:inline-flex;    padding: 10px;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
     margin-bottom: 80px;
 }
 
@@ -63,7 +63,7 @@ h2 {
 .proyecto-img {
     width: 100%;
     max-width: 300px;
-    display: block;
+    display:flex;
     margin-bottom: 10px;
 }
 
