@@ -94,7 +94,12 @@ h2 {
 .skill-img-2 {
     max-height: 150px;
 }
-
+.skill-img-3{
+  min-height: 150px;
+  min-width: 280px; 
+  position: relative;
+  right: 20%;
+}
 .certificaciones, .contacto {
     display: flex;
     padding: 10px;
