@@ -89,14 +89,14 @@ h2 {
 }
 
 .skill-img-1 {
-    max-height: 136px;
+    max-height: 70px;
 }
 .skill-img-2 {
-    max-height: 150px;
+    max-height: 80px;
 }
 .skill-img-3{
-  min-height: 150px;
-  min-width: 280px; 
+  min-height: 80px;
+  min-width: 80px; 
   position: relative;
   right: 20%;
 }
