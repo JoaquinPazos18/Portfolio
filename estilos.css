@@ -1,0 +1,56 @@
+
+.accordion{
+  position: absolute;
+  top: 40%;
+ 
+}
+
+
+.accordion-button{
+  color: black;
+}
+ 
+.logo{
+  position: absolute;
+  left: 45%;
+  width: 8em;
+  height: 8em;
+  padding: 5px 0px 0px 2px;
+  border-radius: 50%;
+}
+
+
+.btn{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 5px 0px 0px 2px;
+  border-color: black;
+}
+
+
+  
+  
+.alert{
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  
+ 
+}
+
+
+
+
+.container{
+  position: relative;
+  top: 50em;
+  display: flex !important;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content:space-between;
+  
+}
+
