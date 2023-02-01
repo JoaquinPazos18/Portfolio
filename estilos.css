@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+
 :root{
   color-scheme: light dark;
 }
@@ -11,14 +15,22 @@ body{
 .accordion{
   position: absolute;
   top: 40%;
- 
+
 }
 
 
 .accordion-button{
-  color: black;
+  color: lightgray;
+  background: blueviolet;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  
 }
- 
+
+.accordion-body{
+background: lightgray;
+}
+
 .logo{
   position: absolute;
   left: 45%;
@@ -35,18 +47,22 @@ body{
   height: auto;
   margin: 5px 0px 0px 2px;
   border-color: black;
+  background: blueviolet;
 }
 
 
   
-  
+
 .alert{
   position: absolute;
   top: 100%;
   width: 100%;
   text-align: center;
+  border-color: blueviolet;
+  color: black;
+  background-color: lightgrey;
   
- 
+  
 }
 
 
@@ -66,17 +82,33 @@ body{
 .card-title{
   text-align: center;
   color: black;
+  
 }
 
 .card-text{
   color: black;
+  text-align: center;
+  font-size:small;
+  font-family: 'Barlow', sans-serif;
 }
 
 .switch{
    position: absolute;
-  left: 85%;
-  bottom: 75em;
-  width: 8em;
-  height: 8em;
+   left: 90%;
+   bottom: 65em;
+   width: 8em;
+   height: 8em;
   padding: 5px 0px 0px 2px;
 }
+
+.card{
+  border-color: blueviolet;
+  background-color: lightgray;
+}
+
+.git{
+  width: 3em;
+  height: 3em;
+}
+  
+
