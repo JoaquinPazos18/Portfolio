@@ -6,3 +6,6 @@ Esta previsto optimizar la pagina con un "modo oscuro" como asi tambien utilizar
 
 #31/01/23 SEGUNDA ENTRADA (18:44)
 Se modifica CSS y se optimiza el dark mode, se elimina la porcion de codigo en Javascript.
+
+#01/02/23 TERCERA ENTRADA 
+Se modifica CSS en estilo de pagina principal y se añade contenido a la seccion "proyectos", resta completar la totalidad de los campos principales y finalizar con footer para una mejor semantica.
