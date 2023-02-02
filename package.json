@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "csshake": "^1.7.0",
+    "hover.css": "^2.3.2"
+  }
+}

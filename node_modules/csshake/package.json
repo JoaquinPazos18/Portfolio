@@ -1,0 +1,44 @@
+{
+  "name": "csshake",
+  "version": "1.7.0",
+  "description": "Some CSS classes to move your DOM!",
+  "main": "dist/csshake.css",
+  "scripts": {
+    "start": "npm run build",
+    "watch": "sass --watch scss/csshake.scss:docs/csshake.css",
+    "build": "npm run build:raw && npm run build:min && npm run build:docs && node downloadIndex.js",
+    "build:docs": "sass scss/csshake.scss:docs/csshake.css --style compressed",
+    "build:raw": "sass scss/:dist/",
+    "build:min": "mkdir -p dist/min && sass --style compressed scss/:dist/min && npm run suffix && npm run move",
+    "suffix": "for file in dist/min/*.css; do mv \"$file\" \"${file%.css}.min.css\"; done",
+    "move": "mv dist/min/*.css dist && rm -r dist/min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elrumordelaluz/csshake.git"
+  },
+  "keywords": [
+    "css",
+    "transitions",
+    "animations"
+  ],
+  "author": "Lionel T <elrumordelaluz@hotmail.com> (http://elrumordelaluz.com)",
+  "contributors": [
+    {
+      "name": "Peter Nyari",
+      "url": "https://github.com/netwarex",
+      "email": "peter.nyari@ioflair.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elrumordelaluz/csshake/issues"
+  },
+  "homepage": "https://github.com/elrumordelaluz/csshake",
+  "devDependencies": {
+    "gzip-size": "5.1.1",
+    "pretty-bytes": "5.2.0",
+    "pug": "^3.0.2",
+    "sass": "1.51.0"
+  }
+}
