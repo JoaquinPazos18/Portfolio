@@ -32,6 +32,7 @@ background: lightgray;
 
 .logo{
   position: absolute;
+  left: 42%;
   width: 8em;
   height: 8em;
   padding: 5px 0px 0px 2px;
@@ -104,17 +105,12 @@ background: lightgray;
 
 .switch{
   position: fixed;
-  top: 1em;
-  left: 80%;
+  top: 2em;
+  left: 92%;
    padding: 5px 0px 0px 2px;
 
 }
 
-.logo2{
-  position: fixed;
-   left: 42%;
-   
-}
 
 .card-img-top{
   width: 100%;
@@ -225,4 +221,29 @@ background: lightgray;
   width: 10em;
   height: 10em;
 
+}
+
+
+.sube{
+  display: flex !important;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 200%;
+  justify-content: center;
+}
+  
+.iconoFlecha{
+  
+  width: 100px;
+  height: auto;
+ position: relative;
+ bottom: 1em;
+}
+
+.foot{
+  display: flex !important;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 230%;
+  justify-content: center;
 }
