@@ -70,7 +70,7 @@ background: lightgray;
 
 .container{
   position: relative;
-  top: 65em;
+  top: 70em;
   display: flex !important;
   flex-wrap: wrap;
   width: 100%;
@@ -219,8 +219,8 @@ background: lightgray;
 }
 
 .hijo{
-  width: 18em;
-  height: 12em;
+  width: 15vh;
+  height: 15vh;
 
 }
 

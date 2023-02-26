@@ -6,4 +6,5 @@ window.onload = ()=>{
       duration: 6000 
     });
 };
-    
+
+
