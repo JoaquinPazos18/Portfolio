@@ -13,7 +13,8 @@ body{
 
 .accordion{
   position: absolute;
-  top: 20%;
+  top: 30vh;
+  width: 100%;
 
 }
 
@@ -55,7 +56,7 @@ background: lightgray;
 
 .alert{
   position: absolute;
-  top: 130%;
+  top: 120vh;
   width: 100%;
   text-align: center;
   border-color: blueviolet;
@@ -70,7 +71,7 @@ background: lightgray;
 
 .container{
   position: relative;
-  top: 70em;
+  top: 150vh;
   display: flex !important;
   flex-wrap: wrap;
   width: 100%;
@@ -106,8 +107,8 @@ background: lightgray;
 
 .switch{
   position: fixed;
-  top: 2em;
-  left: 90%;
+  top: 5%;
+  left: 75%;
    padding: 5px 0px 0px 2px;
 
 }
@@ -207,8 +208,8 @@ background: lightgray;
 }
 
 .skills{
-  width: 100% ;
-  height: 10em;
+  width: 40vh;
+  height: 20vh;
   
 }
 
@@ -219,8 +220,8 @@ background: lightgray;
 }
 
 .hijo{
-  width: 15vh;
-  height: 15vh;
+  width: 20vh;
+  height: 20vh;
 
 }
 
