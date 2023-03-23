@@ -96,12 +96,13 @@ background: lightgray;
 
 .card{
   border-color: blueviolet;
-  background-color: lightgray;
+  background-color: lightgrey;
 }
 
 .git{
-  width: 3em;
-  height: 3em;
+  width: 10vh;
+  height: 10vh;
+  
 }
   
 
@@ -291,5 +292,10 @@ background: lightgray;
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+.contacto{
+  position: relative;
+  top: 50vh;
 }
 
